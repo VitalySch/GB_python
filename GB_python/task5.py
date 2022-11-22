@@ -4,5 +4,8 @@ if profit > loss:
     print(f'Ваш доход составляет {profit - loss}')
     workers = int(input('Введите количество сотрудников: '))
     print(f'Средний доход на одного сотрудника {(profit - loss) / workers:.2f}')
-else:
+elif profit < loss:
     print(f'Ваш убыток составляет {loss - profit}')
+else:
+    print(f'Вы ничего не заработали.')
+git
